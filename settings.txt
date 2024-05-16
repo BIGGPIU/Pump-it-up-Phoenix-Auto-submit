@@ -1,0 +1,4 @@
+screen resolution=1080
+screen=1
+go to docks>Reset Docks to use this properly. you cannot use any overlays with this as of now. DM me pictures of your overlay if you want me to work on supporting it 
+I think you can go into your windows settings to see which monitor is monitor #1 and which is monitor #2
