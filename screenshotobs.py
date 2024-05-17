@@ -7,13 +7,17 @@ from allsongsinphoenix import songs
 def readtextfromimage(PATH):
     hold = str(pytesseract.image_to_string(Image.open(f"{PATH}")))
     hold = hold.split("\n")
-    i=0
+    i=5
+    x=0
     while i != len(hold):
-        if hold[i] in str(songs):
+        if hold[i] in songs[x]:
             song = hold[i]
             break
         else: 
-            i+=1
+            x+=1
+            if x == len(songs):
+                i+=1
+                x=0
     return song
 
 def screenshotobs():
