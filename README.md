@@ -15,4 +15,5 @@ Automatically submit your pump it up phoenix scores to piuscores while you are s
 # Upcoming Features
 * Support for more games
 * let the program tell if you passed or not
-* cooler UI maybe 
+* cooler UI maybe
+* Optimize the program a bit 
