@@ -10,3 +10,8 @@ Automatically submit your pump it up phoenix scores to piuscores while you are s
 * Then set up your stream using one of the provided overlays
 * make sure your terminal is not covering the song title, plate, or score.
 * After that you should be good to go. Please contact me if you encounter any issues.
+
+# Upcoming Features
+* Support for more games
+* let the program tell if you passed or not
+* cooler UI maybe 
