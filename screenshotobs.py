@@ -112,8 +112,10 @@ def readsettings():
     screenres = remove(screenres,"screen resolution=") 
     monitor = f.readline()
     monitor = int(remove(monitor,"screen="))
+    auth = f.readline()
+    auth = remove(auth,"Authorization Header=")
     f.close()
-    return monitor,screenres
+    return monitor,screenres, auth
 
 def remove(string,remove):
     hold = str(string)
