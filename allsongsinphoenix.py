@@ -1,4 +1,4 @@
-import requests
+from requests import get
 from difflib import SequenceMatcher as sm
 
 #you can use this file to update all the songs if you want,=. 
@@ -7,7 +7,7 @@ songs = ['Lepton Strike', 'Sarabande - SHORT CUT -', 'Karyawisata', 'Allegro Con
 namesretrieved=[]
 
 def infofrompiuscores(level):
-    response = requests.get(f"https://piuscores.arroweclip.se/api/tierlist/passcount?ChartType=Single&Level={level}", headers={
+    response = get(f"https://piuscores.arroweclip.se/api/tierlist/passcount?ChartType=Single&Level={level}", headers={
         'accept':'*/*',
         'Authorization':'Basic VEhFUkVJU0FCT01CU1RSQVBQRURUT01ZQ0hFU1Q6NzEwYTExZjMtMmVjNi00OGViLTlkNTEtMjgxMTY2NzJkNDM1'
     })

@@ -3,7 +3,7 @@ import mss
 import mss.tools
 from PIL import Image
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
-from allsongsinphoenix import songs, similarity
+from allsongsinphoenix import similarity
 from os import remove
 
 def readtextfromimage(PATH,SEARCH_FOR_SONG=True):

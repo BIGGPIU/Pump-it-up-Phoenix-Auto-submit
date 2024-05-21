@@ -1,4 +1,3 @@
-import curses
 from curses import wrapper 
 from screenshotobs import *
 from piuscores import POST
